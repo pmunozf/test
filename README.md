@@ -2,8 +2,10 @@ Python unit testing base case
 
 Usage:
 
-$ ./createTest -t [test case name]      // Creates a new test case
+- Create a new test case
+  $ ./createTest -t [test case name]      
 
-$ ./runTests                            // Runs all python test_[test case name] tests
+- Run all python test_[test case name] test scripts
+  $ ./runTests      
 
 Pablo Munoz Fuentes (c) 2019
