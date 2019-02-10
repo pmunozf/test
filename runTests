@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#-*- coding: utf-8 -*-
+#
+# Pablo Munoz (c) 2019
+#
+# Run all tests (tests are python scripts preffixed by 'test_')
+#
+for test_name in `ls test_*.py`
+do
+    python $test_name
+done
